@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'name'        => 'Example',
-    'description' => 'An example report for the dashboard module.'
+    'name'        => '{{report_name}}',
+    'description' => '{{description}}'
 ];

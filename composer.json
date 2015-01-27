@@ -1,29 +1,29 @@
 {
-    "name": "anomaly/example_report-extension",
+    "name": "{{toLowerCase vendor_name}}/{{toLowerCase report_name}}_report-extension",
     "type": "streams-addon",
-    "description": "An example report for the dashboard module.",
+    "description": "{{description}}",
     "keywords": [
         "streams-addon",
         "dashboard",
         "report",
         "laravel"
     ],
-    "homepage": "http://anomaly.is/",
-    "license": "MIT",
+    "homepage": "{{homepage}}",
+    "license": "{{license}}",
     "authors": [
         {
-            "name": "AnomalyLabs, Inc.",
-            "email": "hello@anomaly.is",
-            "homepage": "http://anomaly.is/",
+            "name": "{{author_name}}",
+            "email": "{{email}}",
+            "homepage": "{{homepage}}",
             "role": "Owner"
         }
     ],
     "support": {
-        "email": "support@anomaly.is"
+        "email": "{{email}}"
     },
     "autoload": {
         "psr-4": {
-            "Anomaly\\ExampleReportExtension\\": "src/"
+            "{{vendor_name}}\\\{{report_name}}ReportExtension\\": "src/"
         }
     },
     "extra": {
